@@ -59,67 +59,74 @@
 
                             </form>
 
-                                <form>
-                                    <fieldset>
-                                        <legend>Ik wil mij aanmelden voor:</legend>
+<form>
 
-                                            <label>Voor een project </label>
-                                            <input type="checkbox" />
-
-                                            <label>Als stagebedrijf </label>
-                                            <input type="checkbox" />
-
-
-                                    </fieldset>
 <fieldset>
-            <legend>Project:</legend>
-            Titel <input type="text"> <br>
-            Opdrachtomschrijving <input type="text"> <br>
-            Doelgroepomschrijving <input type="text"> <br>
-            Doelstelling/ intentie van het project <input type="text"> <br>
-            Looptijd <input type="text"> <br>
-            Deadline <input type="text"> <br>
-        </fieldset></form>
-        <br>
-        <form><fieldset>
+
+    <legend>Ik wil mij aanmelden voor:</legend>
+    <label>Voor een project </label>
+    <input type="checkbox" />
+    <label>Als stagebedrijf </label>
+    <input type="checkbox" />
+</fieldset>
+
+<fieldset>
+
+    <legend>Project:</legend>
+
+            Titel <input type="text">
+            Opdrachtomschrijving <input type="text">
+            Doelgroepomschrijving <input type="text">
+            Doelstelling/ intentie van het project <input type="text">
+            Looptijd <input type="text">
+            Deadline <input type="text">
+</fieldset>
+
+
+<fieldset>
+
             <legend>Geschikt voor:</legend>
+
             Eerstejaars studenten <input type="checkbox" name="project" value="eerstejaars studenten">
             - Tweedejaars studenten <input type="checkbox" name="project" value="tweedejaars studenten">
             - Derdejaars studenten <input type="checkbox" name="project" value="derdejaars studenten">
             - Afstudeer studenten<input type="checkbox" name="project" value="afstudeer studenten">
-            - Onbekend <input type="checkbox" name="project" value="onbekend"> <br>
+            - Onbekend <input type="checkbox" name="project" value="onbekend">
             Opmerking: <input type="text">
-        </fieldset></form>
-        <br>
-        <form><fieldset>
+</fieldset>
+
+<fieldset>
+
             <legend>Stage:</legend>
-            Geschikt voor: <br>
+
+            Geschikt voor:
             Tweedejaars studenten <input type="checkbox" name="stage" value="tweedejaars studenten">
             Afstudeer studenten <input type="checkbox" name="stage" value="afstudeer studenten">
             Onbekend <input type="checkbox" name="stage" value="onbekend">
-            </fieldset></form>
-        <br><br>
-        <form><fieldset>
+</fieldset>
+
+<fieldset>
             1. Hoe lang is de stage <br>
             - 10 weken <input type="radio" name="stage-length" value="10 weken">
-            - 20 weken <input type="radio" name="stage-length" value="20 weken"> <br>
+            - 20 weken <input type="radio" name="stage-length" value="20 weken">
             2. Begin datum <input type="date">
-        </fieldset></form>
-        <br>
-        <form><fieldset>
-            Beschrijving werkzaamheden: <br>
-            1. Beschrijving stagewerkzaamheden <input type="text"> <br> <br>
-            2. Beschrijving stagebedrijf <br>
-            1. Bedrijfsnaam <input type="text" required> <br>
-            2. Adres <input type="text" required> <br>
-            3. Postcode <input type="text" required> <br>
-            4. Plaats <input type="text" required> <br>
-            5. Sector<input type="text" required> <br>
-            6. Core Business<input type="text"> <br> <br>
+</fieldset>
+
+<fieldset>
+            Beschrijving werkzaamheden:
+            1. Beschrijving stagewerkzaamheden <input type="text">
+            2. Beschrijving stagebedrijf
+            1. Bedrijfsnaam <input type="text" required>
+            2. Adres <input type="text" required>
+            3. Postcode <input type="text" required>
+            4. Plaats <input type="text" required>
+            5. Sector<input type="text" required>
+            6. Core Business<input type="text">
             Opmerking<input type="text">
-        </fieldset>
+</fieldset>
         <input type="submit" value="Versturen">
-        </form>
+
+</form>
 
 
 
