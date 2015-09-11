@@ -106,7 +106,7 @@
 </fieldset>
 
 <fieldset>
-            1. Hoe lang is de stage <br>
+            1. Hoe lang is de stage
             - 10 weken <input type="radio" name="stage-length" value="10 weken">
             - 20 weken <input type="radio" name="stage-length" value="20 weken">
             2. Begin datum <input type="date">
