@@ -87,11 +87,11 @@
 
             <legend>Geschikt voor:</legend>
 
-            Eerstejaars studenten <input type="checkbox" name="project" value="eerstejaars studenten">
-            - Tweedejaars studenten <input type="checkbox" name="project" value="tweedejaars studenten">
-            - Derdejaars studenten <input type="checkbox" name="project" value="derdejaars studenten">
-            - Afstudeer studenten<input type="checkbox" name="project" value="afstudeer studenten">
-            - Onbekend <input type="checkbox" name="project" value="onbekend">
+            Eerstejaars studenten <input type="checkbox" value="eerstejaars studenten">
+            - Tweedejaars studenten <input type="checkbox" value="tweedejaars studenten">
+            - Derdejaars studenten <input type="checkbox" value="derdejaars studenten">
+            - Afstudeer studenten<input type="checkbox" value="afstudeer studenten">
+            - Onbekend <input type="checkbox" value="onbekend">
             Opmerking: <input type="text">
 </fieldset>
 
@@ -100,15 +100,15 @@
             <legend>Stage:</legend>
 
             Geschikt voor:
-            Tweedejaars studenten <input type="checkbox" name="stage" value="tweedejaars studenten">
-            Afstudeer studenten <input type="checkbox" name="stage" value="afstudeer studenten">
-            Onbekend <input type="checkbox" name="stage" value="onbekend">
+            Tweedejaars studenten <input type="checkbox" value="tweedejaars studenten">
+            Afstudeer studenten <input type="checkbox" value="afstudeer studenten">
+            Onbekend <input type="checkbox" value="onbekend">
 </fieldset>
 
 <fieldset>
             1. Hoe lang is de stage
-            - 10 weken <input type="radio" name="stage-length" value="10 weken">
-            - 20 weken <input type="radio" name="stage-length" value="20 weken">
+            - 10 weken <input type="radio" value="10 weken">
+            - 20 weken <input type="radio" value="20 weken">
             2. Begin datum <input type="date">
 </fieldset>
 
